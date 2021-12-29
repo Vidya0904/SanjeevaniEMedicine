@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/dash_medimg"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/dash_medName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="#478778"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/dash_medprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:textColor="#1565C0"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dash_medType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dash_medstripSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

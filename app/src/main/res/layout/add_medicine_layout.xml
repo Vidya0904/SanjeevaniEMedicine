@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/medimg"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/medicine"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/selectimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Image"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#0D47A1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Medicine Name:"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/medname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Medicine name"
+            android:layout_marginLeft="10dp"
+            android:inputType="textCapSentences"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medicine Price:"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/medPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Medicine price"
+            android:layout_marginLeft="10dp"
+            android:inputType="textCapSentences"/>
+
+        <TextView
+            android:id="@+id/selectstrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Medicine Strip size"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#0D47A1"/>
+
+        <TextView
+            android:id="@+id/selecttype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Medicine type"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#0D47A1"/>
+
+
+
+        <Button
+            android:id="@+id/svaddmed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="130dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

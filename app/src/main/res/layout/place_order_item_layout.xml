@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="30dp"
+    android:layout_margin="5dp">
+
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_close"
+        android:layout_alignEnd="@+id/mainLay"
+        android:id="@+id/imgPlace_Cancel"/>
+
+    <LinearLayout
+        android:id="@+id/mainLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/place_medImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/medicine" />
+
+        <TextView
+            android:id="@+id/txtplace_medName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:text="Paracetamol"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txtPlace_medPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:text="Rs 250"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtplace_medQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:text="Qty:2"
+            android:textColor="#000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/patient_nav_graph"
+    app:startDestination="@id/mn_patient_home">
+
+    <fragment
+        android:id="@+id/mn_patient_home"
+        android:name="com.example.sanjeevaniemedicine.Fragments.Patient.patient_home_fragment"
+        android:label="Home"
+        tools:layout="@layout/patient_home_layout" />
+
+    <fragment
+        android:id="@+id/mn_Patient_orders"
+        android:name="com.example.sanjeevaniemedicine.Fragments.Patient.patient_orders_fragment"
+        android:label="Orders"
+        tools:layout="@layout/patient_orders_layout" />
+
+    <fragment
+        android:id="@+id/mn_patient_cart"
+        android:name="com.example.sanjeevaniemedicine.Fragments.Patient.patient_cart_fragment"
+        android:label="Cart"
+        tools:layout="@layout/patient_cart_layout" />
+
+    <fragment
+        android:id="@+id/mn_patient_profile"
+        android:name="com.example.sanjeevaniemedicine.Fragments.Patient.patient_profile_fragment"
+        android:label="Profile"
+        tools:layout="@layout/patient_profile_layout" />
+
+    <fragment
+        android:id="@+id/mn_Patient_request"
+        android:name="com.example.sanjeevaniemedicine.Fragments.Patient.Patient_Med_Request_Fragment"
+        android:label="Request"
+        tools:layout="@layout/patient_med_request_layout" />
+
+</navigation>

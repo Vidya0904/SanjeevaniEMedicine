@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylercart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCartTotalAmt"
+        android:text="Checkout:750/-"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+        android:layout_gravity="bottom"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

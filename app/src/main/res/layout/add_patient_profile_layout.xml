@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/addPatientprofileimg"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ic_fname"
+                app:civ_border_color="#000"
+                app:civ_border_width="3dp" />
+
+        </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        match_parent
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtpatientname"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter Full Name"
+            android:inputType="textCapWords"
+            android:drawableLeft="@drawable/ic_fname"
+            android:drawablePadding="15dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/rdgr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <RadioButton
+            android:id="@+id/edtmale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp" />
+        <RadioButton
+            android:id="@+id/edtfemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp" />
+    </RadioGroup>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtpatientmobile"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter Mobile No."
+            android:inputType="number"
+            android:drawableLeft="@drawable/ic_mobile"
+            android:drawablePadding="15dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtpatientaddress"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter Address"
+            android:inputType="textCapSentences"
+            android:drawableLeft="@drawable/ic_address"
+            android:drawablePadding="15dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtpatientcity"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter City"
+            android:inputType="textCapWords"
+            android:drawableLeft="@drawable/ic_city"
+            android:drawablePadding="15dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtpatientpin"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter Pin code"
+            android:inputType="number"
+            android:drawableLeft="@drawable/ic_pin"
+            android:drawablePadding="15dp"/>
+
+        <Button
+            android:id="@+id/patientsvbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290px"
+            android:layout_marginTop="20px"
+            android:text="Save"
+            android:textSize="20dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtOwnReqEstPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estimate Price: "
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/txtOwnReqdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/txtOwnReqstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/txtOwnReqConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is Confirmed"
+        android:textColor="#1976D2"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp" />
+
+    <ImageView
+        android:id="@+id/imgOwnReqDetail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/medicine"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtmedOwnReqPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Estimate Price"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textCapSentences"/>
+
+
+    <Button
+        android:id="@+id/btn_OwnReqSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>

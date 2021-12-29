@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/req_prsImg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/prescription"/>
+
+    <TextView
+        android:id="@+id/req_txtprsc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Prescription Image"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#1976D2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/req_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/req_BtnMyRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Request"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+
+
+</LinearLayout>
+
+</LinearLayout>

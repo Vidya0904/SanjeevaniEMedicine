@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/owner_nav_graph"
+    app:startDestination="@id/mn_owner_dashboard">
+
+    <fragment
+        android:id="@+id/mn_owner_dashboard"
+        android:name="com.example.sanjeevaniemedicine.Fragments.ShopOwner.owner_dashboard_fragment"
+        android:label="Dashboard"
+        tools:layout="@layout/owner_dashboard_layout" />
+
+    <fragment
+        android:id="@+id/mn_owner_addmedicine"
+        android:name="com.example.sanjeevaniemedicine.Fragments.ShopOwner.owner_addmedicine_fragment"
+        android:label="Add Medicine"
+        tools:layout="@layout/owner_addmedicine_layout"/>
+
+    <fragment
+        android:id="@+id/mn_owner_orders"
+        android:name="com.example.sanjeevaniemedicine.Fragments.ShopOwner.owner_orders_fragment"
+        android:label="Orders"
+        tools:layout="@layout/owner_orders_layout" />
+
+    <fragment
+        android:id="@+id/mn_owner_profile"
+        android:name="com.example.sanjeevaniemedicine.Fragments.ShopOwner.owner_profile_fragment"
+        android:label="Profile"
+        tools:layout="@layout/owner_profile_layout" />
+
+    <fragment
+        android:id="@+id/mn_owner_request"
+        android:name="com.example.sanjeevaniemedicine.Fragments.ShopOwner.owner_request_fragment"
+        android:label="Request"
+        tools:layout="@layout/owner_request_layout" />
+
+
+</navigation>
